@@ -6,7 +6,6 @@
 
 Fire incidents can cause catastrophic damage and loss of life when not detected early enough. Current detection methods, which rely primarily on traditional sensors, often have delayed response times that can lead to severe consequences. This creates a critical need for faster, more reliable detection systems that can identify fire hazards at their earliest stages. To address this challenge, this project implements advanced deep learning technology to detect fires and smoke as they emerge, enabling rapid response and intervention.
 
-\
 
 **Fire Scope** represents a state-of-the-art approach to fire safety monitoring. At its core, the system uses **YOLOv11**, a powerful object detection model, to continuously analyze video feeds for signs of fire and smoke in real-time. When potential threats are detected, the system immediately sends alerts through **Telegram/WhatsApp** messaging platforms, ensuring that stakeholders are notified without delay.
 
@@ -75,6 +74,7 @@ The model was trained using **YOLOv11** on a dataset of fire and smoke images. T
 | --------- | --------- | ------ | ------ | --------- |
 | **Fire**  | 0.813     | 0.806  | 0.828  | 0.513     |
 | **Smoke** | 0.800     | 0.629  | 0.711  | 0.472     |
+
 
 
 
