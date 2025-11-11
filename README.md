@@ -1,24 +1,7 @@
 <div align="center">
 
-# Flare Guard: Real-Time Smoke & Fire Detection with YOLO11
+# FireScope: Real-Time Smoke & Fire Detection with YOLO11
 
-<img src="data/fire14.png" alt="Flare Guard Cover" width="700"/>
-
-![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/FlareGuard_bot)
-[![Ultralytics](https://img.shields.io/badge/Ultralytics-181717?logo=github&logoColor=white)](https://github.com/ultralytics/ultralytics)
-[![YOLOv11](https://img.shields.io/badge/YOLOv11-181717?logo=github&logoColor=white)](https://github.com/ultralytics/ultralytics)
-<a href="https://universe.roboflow.com/sayed-gamall/fire-smoke-detection-yolov11">
-<img src="https://app.roboflow.com/images/download-dataset-badge.svg"></img>
-</a>
-<a href="https://universe.roboflow.com/sayed-gamall/fire-smoke-detection-yolov11/model/">
-<img src="https://app.roboflow.com/images/try-model-badge.svg"></img>
-</a>
-<a href="https://www.kaggle.com/code/sayedgamal99/smoke-fire-detection-yolon11">
-<img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle Notebook">
-</a>
-
-</div>
 
 ## 📌 Table of Contents
 
@@ -37,15 +20,11 @@
 
 Fire incidents can cause catastrophic damage and loss of life when not detected early enough. Current detection methods, which rely primarily on traditional sensors, often have delayed response times that can lead to severe consequences. This creates a critical need for faster, more reliable detection systems that can identify fire hazards at their earliest stages. To address this challenge, this project implements advanced deep learning technology to detect fires and smoke as they emerge, enabling rapid response and intervention.
 
-### Solution
+\
 
-<div align="center">
-<img src="data/logo.png" alt="Flare Guard Logo" width="175"/>
-</div>
+**Fire Scope** represents a state-of-the-art approach to fire safety monitoring. At its core, the system uses **YOLOv11**, a powerful object detection model, to continuously analyze video feeds for signs of fire and smoke in real-time. When potential threats are detected, the system immediately sends alerts through **Telegram/WhatsApp** messaging platforms, ensuring that stakeholders are notified without delay.
 
-**Flare Guard** represents a state-of-the-art approach to fire safety monitoring. At its core, the system uses **YOLOv11**, a powerful object detection model, to continuously analyze video feeds for signs of fire and smoke in real-time. When potential threats are detected, the system immediately sends alerts through **Telegram/WhatsApp** messaging platforms, ensuring that stakeholders are notified without delay.
-
-### Why Choose Flare Guard?
+### Why Choose Fire Scope?
 
 Key capabilities:
 - Real-time video processing with 30-60 frames per second
@@ -133,46 +112,3 @@ Here are examples from the test set:
 <img src="data/ex3.png" alt="Example 3" width="250"/>
 </div>
 
-## Installation and Usage 🚀
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/sayedgamal99/Real-Time-Smoke-Fire-Detection-YOLO11
-   cd Real-Time-Smoke-Fire-Detection-YOLO11
-   ```
-
-2. Install the required packages:
-   ```bash
-   pip install ultralytics
-   ```
-
-### Inference
-
-To perform inference with the trained model on test images, run:
-
-```bash
-yolo detect predict model=models/best_nano_111.pt source=data/house.png conf=0.35 iou=0.1
-```
-
-and there's the output:
-
-<div align='center'>
-<img src="data/ex4.png" alt="Example 1" width="700"/> 
-</div>
-
-To perform inference in real-time using a webcam:
-
-```bash
-yolo detect predict model=models/best_nano_111.pt source=0 conf=0.35 iou=0.1 show=True
-```
-
----
-
-<div align="center">
-
-**Protect What Matters Most - Early Detection Saves Lives**
-
-</div>
