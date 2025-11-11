@@ -1,20 +1,6 @@
-<div align="center">
+
 
 # FireScope: Real-Time Smoke & Fire Detection with YOLO11
-
-
-## 📌 Table of Contents
-
-1. [Introduction](#safeguard-lives-with-smart-fire-and-smoke-detection--a-new-era-of-protection)
-2. [Video Demonstration](#video-demonstration)
-3. [Dataset](#dataset)
-4. [Training Summary](#training-summary)
-5. [Example Detections](#example-detections)
-6. [Installation and Usage](#installation-and-usage-)
-   - [Installation](#installation)
-   - [Inference](#inference)
-
-## Safeguard Lives with Smart Fire and Smoke Detection – A New Era of Protection 🛡️
 
 ### Problem Description
 
@@ -36,20 +22,13 @@ Key capabilities:
 The combination of speed, accuracy, and reliable notification makes Flare Guard particularly effective for environments where early fire detection is critical for safety and asset protection.
 
 
-## Video Demonstration
-
-<div align="center">
-  <video width="700" src="https://github.com/user-attachments/assets/d4059264-5953-45d2-8464-b5c61e9a0caf"/>
-</div>
-
-<div align="center">
      
    ### 🔥 Fire Detection System in Action  
   This video demonstrates the system detecting fire immediately upon occurrence.  
   Alerts are sent instantly to **Telegram** and **WhatsApp**, including an attached image.  
   Thanks to **multithreading**, the system continues running without interruption.
   
-</div>
+
 
 ## Dataset
 
@@ -111,4 +90,5 @@ Here are examples from the test set:
 <img src="data/ex2.png" alt="Example 2" width="250"/>
 <img src="data/ex3.png" alt="Example 3" width="250"/>
 </div>
+
 
