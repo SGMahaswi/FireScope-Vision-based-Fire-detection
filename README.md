@@ -59,11 +59,6 @@ dataset = project.version(2).download("yolov11")
 
 The model was trained using **YOLOv11** on a dataset of fire and smoke images. Training stopped early due to no improvement over 20 epochs, with the best results observed at **Epoch 92**.
 
-### Training Graph
-
-<div align="center">
-<img src="data/training_graphs.png" alt="Training Graph" width="600"/>
-</div>
 
 ### Final Validation Results
 
@@ -81,14 +76,7 @@ The model was trained using **YOLOv11** on a dataset of fire and smoke images. T
 | **Fire**  | 0.813     | 0.806  | 0.828  | 0.513     |
 | **Smoke** | 0.800     | 0.629  | 0.711  | 0.472     |
 
-## Example Detections
 
-Here are examples from the test set:
 
-<div align="center">
-<img src="data/ex1.png" alt="Example 1" width="250"/>
-<img src="data/ex2.png" alt="Example 2" width="250"/>
-<img src="data/ex3.png" alt="Example 3" width="250"/>
-</div>
 
 
